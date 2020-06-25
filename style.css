@@ -84,7 +84,6 @@ a:hover {
 .post-author img {
   width: 50px;
   height: 50px;
-  border-radius: 25px;
   vertical-align: middle;
 }
 
@@ -103,8 +102,11 @@ a:hover {
 .about-author img {
   width: 200px;
   height: 200px;
-  border-radius: 100px;
   margin: auto;
+}
+
+.post-author img, .about-author img {
+  border-radius: 50%;
 }
 
 .about {
@@ -121,9 +123,4 @@ p {
 
 .post-container:nth-child(even) {
   background-color: lightGray;
-}
-
-.about-container:nth-child(even) {
-  background-color: gray;
-  
 }
