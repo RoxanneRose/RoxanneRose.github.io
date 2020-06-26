@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400, 700);
 @import url(https://fonts.googleapis.com/css2?family=Notable&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
   color: #555;
@@ -8,16 +9,20 @@ body {
 }
 
 #header {
-  background-color: #1abc9c;
+  background-image: url(https://secure.img1-ag.wfcdn.com/im/54558003/resize-h800%5Ecompr-r85/2661/26614960/Menas+32.7%2527+x+20.5%2522+Chic+Rose+Wallpaper.jpg);
   height: 150px;
   line-height: 150px;
 }
 
 #header a {
-  color: white;
+  color: 94ABAB;
+  -webkit-text-fill-color: 94ABAB;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color:black;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+
 }
 
 #header a:hover {
@@ -27,7 +32,7 @@ body {
 #header-title {
   display: block;
   float: left;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Notable', sans-sans-serif;
 }
@@ -35,12 +40,18 @@ body {
 #header-nav {
   display: block;
   float: right;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 #header-nav li {
   display: inline;
   padding-left: 20px;
   margin-top: 0;
+}
+
+#header-nav a {
+  background-color: cream;
 }
 
 .container {
@@ -81,6 +92,7 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
+  font-family: 'Lora', sans-sans-serif;
 }
 
 .post-author img {
@@ -91,10 +103,11 @@ a:hover {
 
 .post-author span {
   margin-left: 16px;
+  font-size: 20px;
 }
 
 .post-date {
-  color: #D2D2D2;
+  color: #94ABAB;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -123,6 +136,6 @@ p {
   line-height: 1.5;
 }
 
-.post-container:nth-child(even) {
-  background-color: lightGray;
+#content {
+  background-image: url('https://i.pinimg.com/564x/ef/00/a5/ef00a51549a96c6a0569090029f9c899.jpg');
 }
