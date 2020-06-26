@@ -15,7 +15,7 @@ body {
 }
 
 #header a {
-  color: #354534;
+  color: #313B31;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -31,7 +31,7 @@ body {
   float: left;
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Notable', sans-sans-serif;
+  font-family: 'Notable', sans-serif;
 }
 
 #header-nav {
@@ -50,7 +50,7 @@ body {
   border-radius: 10px;
 }
 
-.container, .post-container {
+.container {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -137,5 +137,6 @@ p {
 }
 
 .post-container:nth-child(even) {
+  max-width: 1800px;
   background-color: #EFE4DA;
 }
