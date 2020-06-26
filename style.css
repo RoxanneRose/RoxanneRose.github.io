@@ -133,6 +133,11 @@ a:hover {
   text-align: center;
 }
 
+.about-content {
+  width: 500px;
+  margin: auto;
+}
+
 h1, h2, h3, h4 {
   color: #333;
 }
