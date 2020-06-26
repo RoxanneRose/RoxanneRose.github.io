@@ -15,10 +15,7 @@ body {
 }
 
 #header a {
-  color: 94ABAB;
-  -webkit-text-fill-color: 94ABAB;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color:black;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -26,7 +23,7 @@ body {
 }
 
 #header a:hover {
-  color: #222;
+  color: #92676B;
 }
 
 #header-title {
@@ -107,7 +104,7 @@ a:hover {
 }
 
 .post-date {
-  color: #94ABAB;
+  color: #555;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -137,5 +134,9 @@ p {
 }
 
 #content {
-  background-image: url('https://i.pinimg.com/564x/ef/00/a5/ef00a51549a96c6a0569090029f9c899.jpg');
+  background-color: #FCAAAA;
+}
+
+.post-container:nth-child(even) {
+  background-color: #EFE4DA;
 }
