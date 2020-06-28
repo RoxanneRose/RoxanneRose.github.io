@@ -154,3 +154,10 @@ p {
   max-width: 1800px;
   background-color: #EFE4DA;
 }
+
+#MackMas {
+  height: 400px;
+  width: auto;
+  float: right;
+  margin-right: auto;
+}
